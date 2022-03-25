@@ -1,2 +1,2 @@
 # Gipwebsite
-Gip website voor een leerling van immalle
+Gip website van een leerling van immalle
