@@ -9,6 +9,7 @@ h1 {
   font-weight:300;
   letter-spacing: 2px;
   font-size:48px;
+  
 }
 p {
   font-family: 'Lato', sans-serif;
@@ -30,6 +31,19 @@ p {
   display:inline-block;
   vertical-align: middle;
 }
+
+a {
+  color: White;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#00A0C6; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
+
+
 
 .inner-header {
   height:65vh;
