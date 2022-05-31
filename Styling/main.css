@@ -37,6 +37,30 @@ a {
   text-decoration: none;
 }
 
+li{
+  background-color: rgb(255, 255, 255);
+  margin: 30px auto 30px auto;
+  display: inline;
+  margin-right: 10px;}
+
+  li.coming-soon{
+      display: none;
+  }
+
+nav a{
+  border-radius: 10px;
+  background-color: #ffffff;
+
+  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%); 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  width: 20%;
+}
+
+
 a:hover {
   color:#00A0C6; 
   text-decoration:none; 
