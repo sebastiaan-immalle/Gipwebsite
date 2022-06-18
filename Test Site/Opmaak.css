@@ -1,0 +1,125 @@
+body{
+    font-family: arial, verdana, sans-serif;
+ 
+}
+
+h1{
+    color:rgb(255, 255, 255);
+    /* background-color:#613ace; */
+    text-align: center;
+    background-color: rgb(41, 100, 117);
+}
+
+h2{
+    color:rgb(201, 23, 121);
+    /* background-color:#c53eee */
+}
+
+
+
+a:link{ color: darkblue; 
+        text-decoration: none;}
+
+a:visited{
+   color:rgba(138, 3, 120, 0.493); 
+}
+
+a:hover{
+    color:rgb(0, 255, 85);
+}
+
+section{
+
+    margin-right: 40px;
+    margin: 30px; 
+
+    /*padding-top: 10px 10px 20px 20px;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 30px auto 30px auto;
+
+    
+    border: solid 5px rgb(201, 23, 121);
+    background-color: rgb(255, 255, 255);
+    
+    border-radius: 10px;
+    outline-color: black;
+    
+    outline: 30px;
+    
+}
+
+html{
+    
+    width: 75%;
+    height: 75%; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 30px auto 30px auto;
+
+    border: 20px;
+    background-color:rgb(84,58,183,1);
+}
+
+ul{
+ 
+
+background-color: #ffffff;
+    
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+
+}
+
+li{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    margin: 30px auto 30px auto;
+    display: inline;
+    margin-right: 10px;}
+
+    li.coming-soon{
+        display: none;
+    }
+
+nav a{
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: solid 5px rgb(201, 23, 121);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    width: 20%;
+}
+
+aside{
+    
+    float: right;
+    width: 20%;
+    background-color: darkcyan;
+    padding: 0px,10px,10px,10px;
+    margin-top: 20px;
+    border: solid 5px white;
+    border-radius: 10px;
+    margin-left: 20px;
+    color:#ffffff;
+    
+}
+
+#home{
+    height: 585px
+}
+
+article{
+    width: 80%;
+}

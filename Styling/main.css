@@ -13,6 +13,8 @@ h1 {
   
 }
 
+
+
 section {
   letter-spacing: 1px;
   text-align:center;
@@ -46,18 +48,24 @@ p {
   vertical-align: middle;
 }
 
+label {
+  position:relative;
+  text-align:center;
+  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+  color:white;
+}
 
+option {
+  position:relative;
+  text-align:center;
+  background-color: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+  color:rgba(84,58,183,1);
+}
   
 a {
   color: White;
   text-decoration: none;
 }
-
-li{
-  background-color: rgb(255, 255, 255);
-  margin: 30px auto 30px auto;
-  display: inline;
-  margin-right: 10px;}
 
   li.coming-soon{
       display: none;
@@ -75,6 +83,15 @@ nav a{
 
   width: 20%;
 }
+
+
+
+.HeaderOpmaak{
+  background-color: rgb(255, 255, 255);
+  margin: 30px auto 30px auto;
+  display: inline;
+  margin-right: 10px;}
+
 
 header {
   border-radius: 10px;

@@ -1,56 +1,94 @@
-<!--Hey! This is the original version
-of Simple CSS Waves-->
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="Styling/main.css" rel="stylesheet"/>
   <title>GIP</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
 </head>
-  <body>
-  
+<body>
+<!-- partial:index.partial.html -->
+<nav class="nav">
+  <a href="#s1" class="active">Intro</a>
+  <a href="#s2">Compatibility</a>
+  <a href="#s3">GIP Taken</a>
+  <a href="#s4">Credits</a>
+</nav>
 
-<div class="header">
+<article id="s1">
+  <h1>intro</h1>
+  <!--<p>This <b>Smooth Anchor Scrolling</b> pen was written to reduce the bloat of your project and provide a simple and easy solution for projects using Jquery to apply smooth link scrolling throughout your application or website.</p>
+  <p>Example link to <span class="nav"><a href="#s3">Usage</a></span></p>-->
 
-  <!--Content before waves-->
-  <div class="inner-header flex">
+  <p>mijn naam is <b>Sebastiaan Smit</b> van 6ITNa. ik heb deze webiste gemaakt om meer te vertelen over mijn GIP.</p>
+  <p> een GIP is een <i>Geintegreerde proef</i> voor het 6de middelbaar waarbij ze allerlei soorten taken moeten doen.
+  <p>Zo genaamde: <span class="nav"><a href="#s3">GIP Taken</a></span></p>
+  <P><br></P>
+  <h3> mijn persoonlijke mening over het GIP?</h2>
+  <p>Het werdt me vertelt dat ik minder toetsen en taken zou krijgen dan voorig jaar door alle GIP taken die we zouden krijgen.</p>
+  <p>Maar het voelde niet zo.</p>ver het GIP zelf dan is het de meest leukste ding 
+  <p>Het was even druk als vorig jaar voor mij. Maar als we praten o  </p>
 
-  </svg>
-    <h1>  
-      <a href="GipHomepage.html"
-      style="text-decoration: none">GIP website</a>
-      </a>
-    </h1>
-    
-  </div>
-  
-  <!--Waves Container-->
-  <div>
-  <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-  viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-  <defs>
-  <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-    </defs>
-      <g class="parallax">
-       <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
-        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
-       <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
-       <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
-      </g>
-  </svg>
-  </div>
-  <!--Waves end-->
-  
-  </div>
+</article>
 
-  <!--Header ends-->
+<article id="s2">
+  <h2>Compatibility 👍</h2>
+  <p>Due to leveraging Jquery, this CodePen works well on all Browsers, both Desktop and Mobile also work perfectly.</p>
+</article>
+
+<article id="s3">
+  <h2>GIP Taken</h2>
+  <p>Dit zijn alle vakken waarvoor ik taken moest afmaken:.</p>
+  <p><h1><code>SoftOnt</code></h1> een zelf gemaakte bedrijf oprichten en in dat bedrijf kunnen werken met de 3 geleerde lagen:
+    <ul>
+      <li>Presentatie Laag <br><i>de code die de gebruiker gaat zien. bv.Facebooks homepage</i></li> 
+      <li>Buisness Laag <br><i>de code dat regels bevat die specifiek zijn voor het probleem waarvoor de applicatie is gebouwd bv. analyses, berekeningen, ect... </i></li>
+      <li>DataAcces Laag <br><i>is een laag die vereenvoudigde toegang verschaft tot gegevens die zijn opgeslagen in jow database</i></li>
+    </ul> 
+    <a href="IT GIP taken.html" target="_blank">IT GIP taken</a>
+  </p>
   
-  <!--Content starts-->
+  <p><h1><code>SysNet</code></h1>Case studies over jouw stage bedrijf:
+    <ul>
+      <li>
+        een korte samenvatting van wat ik geleerd heb bij GET.
+      </li>
+
+    </ul> 
+    <a href="IT GIP taken.html" target="_blank">IT GIP taken</a>
+  </p>
+
+  <p><h1><code>Frans</code></h1> vertelen over jouw stage bedrijf:
+    <ul>
+   
+    </ul> 
+    <a href="Stage bedrijf.html" target="_blank">IT GIP taken</a>
+  </p>
+
+  <p><h1><code>Engels</code></h1> Het leven van een IT student laten zien:
+    <ul>
+   
+    </ul> 
+    <video src="video-20220314-174840-13afcb2d.mp4"
+    autoplay
+    controls
+    height="235px"></video>
+    <!--<a href="Stage bedrijf.html" target="_blank">IT GIP taken</a>-->
+  </p>
  
-  <!--Content ends-->
-  </body>
-</html>
+</article>
+  
 
+<article class="margin" id="s4">
+  <h2>Credits</h2>
+  <p>This script was written by myself and is intended for public use. please <b>do not</b> sell this script as an individual product. It may be included in your projects that are sold as an entire website or application.</p>
+  <p>If you like this pen, you can follow me on <a href="https://twitter.com/uixmat/" target="_blank">Twitter</a>.</p>
+</article>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
